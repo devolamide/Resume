@@ -78,20 +78,25 @@ export function Projects() {
                     </Badge>
                   ))}
                 </div>
-                
+
                 <div className="flex gap-3">
-                  <Button variant="outline" size="sm" className="flex-1 border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground transition-smooth">
-                    <Github className="mr-2 h-4 w-4" />
-                    Code
-                  </Button>
-                  <Button size="sm" className="flex-1 bg-gradient-primary hover:opacity-90 transition-smooth">
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    Live Demo
-                  </Button>
+                  <a href={project.github} target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm"
+                            className="flex-1 border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground transition-smooth">
+                      <Github className="mr-2 h-4 w-4"/>
+                      Code
+                    </Button>
+                  </a>
+                    <a href={project.live} target="_blank" rel="noopener noreferrer">
+                      <Button size="sm" className="flex-1 bg-gradient-primary hover:opacity-90 transition-smooth">
+                        <ExternalLink className="mr-2 h-4 w-4"/>
+                        Live Demo
+                      </Button>
+                    </a>
                 </div>
               </CardContent>
             </Card>
-          ))}
+            ))}
         </div>
 
         <div className="text-center mt-12">
