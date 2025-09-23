@@ -15,29 +15,29 @@ export function Experience() {
     },
     {
       type: "work",
-      title: "React Developer ",
+      title: "Fullstack Web and Mobile Developer",
+      company: "Confidential Software Development Agency",
+      period: "Sep 2019 - Jul 2022",
+      description: "Developed a diverse portfolio of consumer-facing applications in a fast-paced agency setting.Engineered multi-platform applications including a legal services marketplace, a logistics mobile app, and a data scraping service with Elasticsearch. ",
+      technologies: ["React", "React Native", "NestJS", "AWS", "Python", "AWS", "Elasticsearch", "Ubuntu", "Linux"],
+      current: false
+    },
+    {
+      type: "work",
+      title: "Software Engineer ",
       company: "Tek Experts",
-      period: "Jun 2020 - Aug 2022",
-      description: "Developed a high-performance trading dashboard using React, Next.js and Redux integrated with Django REST APIs, Utilized Cypress for functionality testing.",
-      technologies: ["React", "Next", "Redux", "Python", "AWS", "Docker"],
+      period: "Mar 2017 - Aug 2019",
+      description: "Engineered a centralized, full-stack operations dashboard for a large company to monitor real-time daily operations. The application aggregated and visualized complex data from different sources, enabling users to track, monitor,and analyze productivity metrics, and generate financial reports. This project involved building scalable backend services and a responsive frontend to translate industrial data into actionable business intelligence.",
+      technologies: ["React", "Typescript", "Nodejs/Express", "NestJs", "Prisma ORM", "Docker", "PostgreSQL"],
       current: false
     },
     {
       type: "work",
-      title: "Software Engineer",
+      title: "Software Engineer Intern",
       company: "Union Bank",
-      period: "Sep 2019 - Jun 2020",
-      description: "Delivered 5+ production features on time working closely with PM and QA teams in fast-paced environment, using quality code and comprehensive testing+",
-      technologies: ["React", "Python", "Node.js", "MongoDB", "TypeScript", "AWS"],
-      current: false
-    },
-    {
-      type: "work",
-      title: "Data Analytics Intern",
-      company: "ACE",
-      period: "Aug 2018 - Jun 2019",
-      description: "Processed and analyzed large datasets using Python, R, and SQL for business intelligence. Built automated reporting dashboards, Created compelling data visualizations and presentations for stakeholders",
-      technologies: ["React", "Vue.js", "SCSS", "JavaScript", "Firebase"],
+      period: "Jul 2016 - May 2016",
+      description: "Gained foundational experience in enterprise software development by contributing to an internal banking application. On the backend, I assisted in creating Data Transfer Objects (DTOs) and services using Java and Spring Boot to structure API data. For the frontend, I learned React on the job, applying it to build dynamic user interfaces and views that consumed and displayed data from RESTful endpoints, gaining practical insight into full-stack integration within a regulated environment.",
+      technologies: ["React", "Frontend Development", "Java", "Spring Boot", "TypeScript", "Backend Development", "Rest APIs", "MySQL", "Git"],
       current: false
     },
     {
