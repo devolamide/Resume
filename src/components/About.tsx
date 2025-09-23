@@ -33,7 +33,7 @@ export function About() {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Passionate full-stack developer  with 4+ years of experience building and maintaining web applications.
+            Passionate full-stack developer  with 6+ years of experience building web and mobile applications.
             Recently completed a masters degree in Statistics at the East Tennessee State University.
           </p>
         </div>
@@ -54,12 +54,11 @@ export function About() {
 
         <div className="text-center">
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            I thrive on solving complex problems and turning innovative ideas into reality.
-            I have experience working in a dynamic team, collaborating with developers,
-            testers and stakeholders to turn requirement into functional products.
-            My past projects have  strengthened my capabilities, both on the frontend and backend, particularly
-            in building enterprise backend services, and robust and responsive frontend applications.
-            I'm passionate about clean code, user experience, and staying current with emerging technologies.
+            Results-oriented Software Engineer with experience across diverse domains, including finance, industrial operations, and logistics.
+            Proven ability to design, develop, and deploy full-stack applications using NestJs, Java, Spring Boot, and React.
+            Expert in building data-intensive platforms, from operational dashboards for large enterprises to multi-sided marketplaces and data aggregation services leveraging Elasticsearch.
+            Hands-on experience with the entire software lifecycle, including deployment and management on Linux/Ubuntu servers.
+            A versatile team player eager to tackle complex challenges and deliver robust, scalable solutions.
           </p>
         </div>
       </div>
