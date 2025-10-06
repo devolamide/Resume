@@ -23,7 +23,7 @@ export function Hero() {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            4+ years of experience crafting scalable web applications with modern technologies.
+            6+ years of experience crafting scalable web applications with modern technologies.
             Expert in MVP development with NestJs, React and modern React Patterns.
             Recently specialized in api development using Spring Boot through intensive internship.
           </p>
