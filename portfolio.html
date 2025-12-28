@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Olamide Portfolio - Fullstack Developer</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Olamide is a fullstack developer with experience in Web and Mobile development.">
+        <meta name="keywords" content="Fullstack developer, Web developer, Mobile developer, Web developer in Tennessee, React Developer, NestJs Developer, React Native developer, React Native developer in Tennessee.">
+        <meta name="author" content="Olamide Adebiyi">
+
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!--Bootstrap css-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+
+        <!--Font awesome css-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fontawesome-4.7@4.7.0/css/font-awesome.min.css">
+
+        <!--Magnific popup css-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.2.0/dist/magnific-popup.min.css">
+
+        <!--Site main css-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--Animate css-->
+        <link rel="stylesheet" href="css/animate.css">
+
+        <!--Google Fonts link-->
+        <link href="../fonts.googleapis.com/css696f.css?family=Montserrat:400,500,600,700,800,900|Poppins:400,500,600" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!--Preloader Start-->
+        <div id="loader-wrapper">
+            <div class="loading"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+        <!--Preloader End-->
+
+        <!--Navbar Start-->
+        <nav class="navbar navbar-expand-md navbar-light navbar-light bg-light navbar-scroll-fixed">
+            <div class="container">
+                <!--Logo-->
+                <a class="navbar-brand" href="index.html"><img src="images/logo/logo-dark.png" alt="logo"></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#banner">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#services">Services</a>
+                        </li>
+                        <!--
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">Blog</a>
+                            </li>
+                        -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar End-->
+
+        <!--Portfolio Section Start-->
+        <section id="portfolio" class="wave-primary">
+            <div class="container">
+                <div class="portfolio-header padbtm-60 mt-4">
+                    <h2 class="text-uppercase">Portfolio</h2>
+                    <div class="portfolio-filter">
+                        <ul>
+                            <li class="sel-item" data-filter="*">All</li>
+                            <li data-filter=".web">Web</li>
+                            <li data-filter=".mobile">Mobile</li>
+                            <li data-filter=".blog">Blogs</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--portfolio items-->
+                <div class="row portfolio-items" id="portfolio-items-container">
+                    <!--item-->
+                    <div class="portfolio-card col-lg-4 col-md-6 single-item web-design wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="images/portfolio/banklingo.png" alt="">
+                        <div class="portfolio-card-info wow fadeInUp">
+                            <div class="portfolio-card-info-item">
+                                <div class="portfolio-card-name">
+                                    {project.name}
+                                </div>
+                                <div class="portfolio-card-button">
+                                    <a href="portfolio-item.html?id=1" class="btn-text portfolio-card-button-btn" >
+                                        View more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Creative Background Wave-->
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 100" preserveAspectRatio="none">
+                <path d="M0,100c0,0,419-178,693-49.5S1400,0,1400,0v100H0z"/>
+            </svg>
+        </section>
+        <!--Portfolio Section End-->
+
+        <!--Footer Section Start-->
+        <footer class="wave-footer">
+            <div class="container">
+                <div class="col-md-12">
+                    <ul class="social-icons">
+                        <li class="wow fadeInUp" data-wow-delay=".2s">
+                            <a href="https://github.com/devolamide" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="wow fadeInUp" data-wow-delay=".4s">
+                            <a href="https://www.linkedin.com/in/adebiyi-oluwatobi-727000192/" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="wow fadeInUp" data-wow-delay=".6s">
+                            <a href="https://x.com/olamide_glitter" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-12">
+                    <!--copyright-->
+                    <p>
+                        Copyright &copy; 2025 Olamide Portfolio, All Right Reserved.<br>
+                        Created By cosmos-themes.
+                    </p>
+                </div>
+            </div>
+            <!--Creative Background Wave-->
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 100" preserveAspectRatio="none">
+                <path d="M0,100c0,0,419-178,693-49.5S1400,0,1400,0v100H0z"/>
+            </svg>
+        </footer>
+        <!--Footer Section End-->
+
+        <!--JQuery js-->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+        <!--Bootstrap js-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!--Typed js-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.6/lib/typed.min.js"></script>
+        <!--Isotope js-->
+        <script src="https://cdn.jsdelivr.net/npm/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+        <!--Wow js-->
+        <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.2/dist/wow.min.js"></script>
+        <!--FitText js-->
+        <script src="https://cdn.jsdelivr.net/npm/fittextjs@1.2.0/index.min.js"></script>
+        <!--Magnific popup js-->
+        <script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.2.0/dist/jquery.magnific-popup.min.js"></script>
+        <!--Site main js-->
+        <script src="js/portfolio.js"></script>
+    </body>
+</html>

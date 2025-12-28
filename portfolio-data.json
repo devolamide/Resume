@@ -1,0 +1,238 @@
+[
+
+  {
+    "id": 1,
+    "category": ["web", "blog"],
+    "name": "Glitterz Logistics",
+    "description": "<div>\n<p>Glitterz Logistic is a website and primary online presence for a small moving and logistics company in Tennessee. The site features a get quote page that estimates a users moving price based on the form filled. It also have basic features like book a consultation, contact us, about us and an blog that uses Wordpress (Headless) for CMS.\n</p>\n</div>",
+    "url": "https://glitterzlogistics.com/",
+    "technologiesUsed": [
+      "React",
+      "Typescript",
+      "Tailwind CSS",
+      "WordPress",
+      "Supabase",
+      "Postgresql"
+    ],
+    "imageUrl": "glitterzlogistics.png",
+    "gifUrl": "glitterzlogistics.png"
+  },
+  {
+    "id": 1,
+    "category": ["web"],
+    "name": "SofiaPulse",
+    "description": "<div>\n<p>Sofia Plus Engagement AD studio is a web based, no -code expeSrience creator studio for publishers and retailers to launch campaigns faster, engage audiences, and optimize in real-time with insightful data.</p>\n<p>I assisted in building and maintaining the Ad creation studio. A web application like a Wizzywig application for creating the ad. The platform features image/video upload and manipulation and more advanced features and effects like swipers, chatbots, sliders, parallax and shopify store integration.</p>\n<p>The platform is used and trusted by multiple multinational companies including Audi, Ford, Air Canada to mention but a few.</p>\n</div>",
+    "url": "https://sofiapulse.com/",
+    "technologiesUsed": [
+      "React",
+      "Typescript",
+      "Tailwind CSS",
+      "SCSS",
+      "iframes",
+      "s3",
+      "cloudfare",
+      "hls"
+    ],
+    "imageUrl": "sofia.png",
+    "gifUrl": "sofia.gif"
+  },
+  {
+    "id": 2,
+    "category": ["web"],
+    "name": "Banklingo",
+    "description": "\n      <div>\n        <p>\n        Banklingo is a multi-tenant application and a cloud based platform for powering financial services. It has the capability of managing both deposit and loan products. \n  The frontend of the application was built using React and Redux and other react libraries.\n  </p>\n<p>\nI assist in building new features and currently maintain the CBS application.\n</p>\n<p>\nThe application is used by financial institutions in Nigeria and other african countries. \nWe develop new features based on request and maintain the existing application\n</p>\n</div>\n    ",
+    "url": "https://banklingo.app/",
+    "technologiesUsed": [
+      "React",
+      "Redux",
+      "graphql",
+      "REST API",
+      "SCSS",
+      "Azure"
+    ],
+    "imageUrl": "banklingo.png",
+    "gifUrl": "banklingo.gif"
+  },
+  {
+    "id": 3,
+    "category": ["web"],
+    "name": "Varcity Trading Simulator",
+    "description": "\n      <div>\n      <p>\n      Varcity trading Simulation is a trading simulator which uses real-time market data and allows users to develop their trading skills. The frontend was\n built using react, react-apexcharts and redux.\n </p>\n<p>\n Before being moved to another project, I was the lead frontend developer. \n</p>\n<p>\nThe application was launched on the 4th of October 2023, is still in active development and support.\n</p>\n</div>\n    ",
+    "url": "https://trading.varcity.io/dashboard",
+    "technologiesUsed": [
+      "React",
+      "ApexCharts",
+      "Highcharts",
+      "Socket",
+      "jest",
+      "linux",
+      "nginx"
+    ],
+    "imageUrl": "capfii.png",
+    "gifUrl": "capfii.gif"
+  },
+  {
+    "id": 4,
+    "category": ["web"],
+    "name": "Govidigo",
+    "description": "\n      <div>\n      <p>\nGovidigo is a teaching and learning platform that allows users to create online courses and buy/take those courses. It features a creator platform where users can create course set course prices, give discounts and manage students, It also features a student platform where users can take courses and follow up with the creators and other students.\nOther features include chat application and payment processing.\nThe frontend of the application was built using Svelte (Typescript), and TailwindCSS.\n </p>\n<p>\nWe were two developers on the frontend of the project, myself and another senior developer. I worked on converting the design to web and integrating it with the backend. \nBefore this application, I have experience with various frontend libraries except Svelte.\n </p>\n<p>\nThe development took just two months, and we launched a responsive multi-functional application from already made design.\n</p>\n</div>\n    ",
+    "url": "https://govidigo.com/",
+    "technologiesUsed": [
+      "Svelte",
+      "vite",
+      "firebase",
+      "Typescript",
+      "Tailwind CSS"
+    ],
+    "imageUrl": "govidigo.png",
+    "gifUrl": "govidigo.gif"
+  },
+  {
+    "id": 5,
+    "category": ["web", "blog"],
+    "name": "Skydust",
+    "description": "\n      <div>\n      <p>\n      Skydust is an ESG value-driven platform designed for businesses in their challenge to build resilience in the supply chain. \nIt features built-in advanced AI technology that has the power to make highly relevant data available, improve business process optimization to  reduce cost by 40%, provide frontline workers with task-critical information, and solve the skills gap with a new take on reality.\n </p>\n<p>\n I handled the development of the website, and blog. The blog showcase the features and benefits of the product and was developed using gatsby. \n</p>\n<p>\nThe application was launched on the 4th of October 2023, is still in active development and support.\n</p>\n</div>\n    ",
+    "url": "https://skydust.io/",
+    "technologiesUsed": [
+      "Gatsby",
+      "Contentful",
+      "graphql",
+      "i18n",
+      "Gatsby React"
+    ],
+    "imageUrl": "skydust.png",
+    "gifUrl": "skydust.gif"
+  },
+  {
+    "id": 6,
+    "category": ["web", "blog"],
+    "name": "CoworkspaceNG",
+    "description": "\n    <div>\n    <p>\n    Coworkspace.ng allows users to find the best coworkspaces in any city around Nigeria. It also features a reviews platform.\n    Coworkspace features a seperate coworking space management system that is still in development.\n</p>\n<p>\nI was the lead developer in the development. \n</p>\n    <p>\n    Project is still in development\n</p>\n</div>\n    ",
+    "url": "https://coworkspace.ng/",
+    "technologiesUsed": [
+      "React",
+      "Typescript",
+      "Tailwind CSS",
+      "Redux",
+      "Rest API",
+      "MYSQL",
+      "node WebServices"
+    ],
+    "imageUrl": "coworkspace.png",
+    "gifUrl": "coworkspace.gif"
+  },
+  {
+    "id": 7,
+    "category": ["web"],
+    "name": "Digsshare",
+    "description": "\n    <div>\n    <p>\n      Digsshare is an apartment and Listings website that connects people to real estate agents, and people with shared apartments.\n    </p>\n</div>\n",
+    "url": "https://demo.digsshare.com/",
+    "technologiesUsed": [
+      "React",
+      "Node js",
+      "Material UI MUI",
+      "express.js"
+    ],
+    "imageUrl": "digsshare.png",
+    "gifUrl": "digsshare.gif"
+  },
+  {
+    "id": 8,
+    "category": ["web"],
+    "name": "Greenomy",
+    "description": "\n    <div>\n    <p>\n    Greenomy helps companies and financial institutions understand and \n    implement the new EU Sustainable Finance Regulations and requirements \n    (detailing 600 pages) to, improve their sustainability levels.\n</p>\n<p>\nI assisted in implementing some features on the  portal\n</p>\n    <p>\n    Project is live and is actively used by multiple companies including traffic.com, Accenture and Sustainable Capital Group. in development\n</p>\n</div>\n    ",
+    "url": "https://greenomy.io/platform",
+    "technologiesUsed": [
+      "React",
+      "Redux",
+      "i18n",
+      "npm",
+      "pnpm",
+      "webpack",
+      "linux"
+    ],
+    "imageUrl": "greenomy.png",
+    "gifUrl": "greenomy.png"
+  },
+  {
+    "id": 9,
+    "category": ["web"],
+    "name": "Legacy Lab",
+    "description": "<div>\n<p>Legacy lab is a social-impact Digital Innovation Hub that offers technology and innovation infrastructure to create an ecosystem of opportunities for the youth. We serve as a stimulus for local entrepreneurship and facilitate global employment and economic opportunities for youths across the country.</p>\n<p>I lead the development and currently maintain the website built using Vue Js.</p>\n<p>The platform is up and functional.</p>\n</div>",
+    "url": "https://legacylab.ng",
+    "technologiesUsed": [
+      "Vue",
+      "Node js",
+      "Javascript",
+      "SCSS"
+    ],
+    "imageUrl": "legacylab.png",
+    "gifUrl": "legacylab.gif"
+  },
+  {
+    "id":10,
+    "category": ["mobile"],
+    "name": "iDreamers",
+    "description": "<div>\n<p>\niDreamers allows users to list thier dreams, crowdfund/selffund the dreams and share their dreams with others. <br/>\nit features \n</p>\n<p>\nI assisted in building the hybrid mobile application using vue iconic.\n</p>\n</div>",
+    "url": "https://play.google.com/store/apps/details?id=com.idreamers.system",
+    "technologiesUsed": [
+      "vue",
+      "iconic",
+      "REST API",
+      "mobile"
+    ],
+    "imageUrl": "idreamers.png",
+    "gifUrl": "idreamers.gif"
+  },
+  {
+    "id": 11,
+    "category": ["web"],
+    "name": "Sheltia",
+    "description": "\n      <div>\n      <p>\n      Sheltia is an insurance promotion and brokerage company whoose aim is to promote the insurance culture, to help Italians choose the most appropriate solutions in the fields of Savings, Investments and Protection for those Welfare, Pension and Healthcare.\n</p>\n<p>\nI assisted in converting tables in the application to Ag-grid table\n</p>\n</div>\n    ",
+    "url": "https://www.sheltia.com/",
+    "technologiesUsed": [
+      "vue",
+      "quasar",
+      "vuex",
+      "vue-i18n",
+      "i18n",
+      "ag-grid",
+      "ag-grid-enterprise",
+      "ag-grid-vue"
+    ],
+    "imageUrl": "sheltia.png",
+    "gifUrl": "sheltia.png"
+  },
+  {
+    "id": 12,
+    "category": ["web", "blog"],
+    "name": "Faithbreed",
+    "description": "\n    <div>\n    <p>\n    Pneumalife exist to build a people who are Christ centered and Spirit driven, taught to know God for themselves. Influencing individuals, cities and nations with the light of the glorious gospel as ambassadors of the kingdom.\n</p>\n<p>\nI assisted in the development of the frontend of this city church.\n</p>\n    <p>\n    Project completed and fully functional.\n</p>\n</div>\n    ",
+    "url": "https://faithbreed.org/",
+    "technologiesUsed": [
+      "React",
+      "SCSS",
+      "Redux",
+      "Material UI"
+    ],
+    "imageUrl": "faithbreed.png",
+    "gifUrl": "faithbreed.gif"
+  },
+  {
+    "id": 13,
+    "category": [
+      "web"
+    ],
+    "name": "Deeva Body Ng",
+    "description": "\n    <div>\n    <p>\n    Remodeled and rebranded an ecommerce store for selling Hair and Natural Skin products.\nTechnologies used: Wordpress, WooCommerce and Elementor.\n</p>\n<p>\nRemodeled the woocommerce store to a new design, updated to a nigerian based payment integration. Updated shipping information to accommodate all accepted shipping destinations with recent prices.\n</p>\n    <p>\n    The updated helped increase sales form the e-store channel by over 25% and we had less complaints when making payments or choosing shipping destination.\n</p>\n</div>\n    ",
+    "url": "https://deevabodynigeria.com/",
+    "technologiesUsed": [
+      "vue",
+      "iconic",
+      "REST API",
+      "mobile"
+    ],
+    "imageUrl": "deeva.png",
+    "gifUrl": "deeva.gif"
+  }
+]

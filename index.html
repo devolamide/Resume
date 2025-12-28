@@ -1,26 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Olamide Adebiyi Portfolio - Full Stack Developer </title>
-    <meta name="description" content="Experienced Full Stack Developer with 4+ years in React, Node.js, Java, and modern web technologies. Recent Java internship specialist." />
-    <meta name="author" content="Olamide" />
+        <title>Olamide - Fullstack Developer</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Olamide is a fullstack developer with experience in Web and Mobile development.">
+        <meta name="keywords" content="Fullstack developer, Web developer, Mobile developer, Web developer in Tennessee, React Developer, NestJs Developer, React Native developer, React Native developer in Tennessee.">
+        <meta name="author" content="Olamide Adebiyi">
 
-<!--
-    <meta property="og:title" content="6cfa7804-0a74-4748-b5fe-f0695deb007c" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    -->
-</head>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
-<body>
-<div id="root"></div>
-<script type="module" src="/src/main.tsx"></script>
-</body>
+        <!--Bootstrap css-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+
+        <!--Font awesome css-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fontawesome-4.7@4.7.0/css/font-awesome.min.css">
+
+        <!--Magnific popup css-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.2.0/dist/magnific-popup.min.css">
+
+        <!--Site main css-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--Animate css-->
+        <link rel="stylesheet" href="css/animate.css">
+
+        <!--Google Fonts link-->
+        <link href="https://fonts.googleapis.com/css696f.css?family=Montserrat:400,500,600,700,800,900|Poppins:400,500,600" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!--Preloader Start-->
+        <div id="loader-wrapper">
+            <div class="loading"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+        <!--Preloader End-->
+
+        <!--Navbar Start-->
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+                <!--Logo-->
+                <a class="navbar-brand" href="#"><img src="images/logo/logo.png" alt="logo"></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#banner">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <!--
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">Blog</a>
+                            </li>
+                        -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar End-->
+
+        <!--Banner Section Start-->
+        <section id="banner" class="wave-primary" style="background-image: url('images/background/home-header-bg.png')">
+            <div class="banner-text">
+                <h1 class="text-uppercase">Olamide Adebiyi</h1>
+                <!--Typed String-->
+                <div id="typed-strings">
+                    <p>Frontend Developer.</p>
+                    <p>Backend Developer.</p>
+                    <p>Mobile Developer.</p>
+                    <p>Programmer.</p>
+                </div>
+                <span id="typed"></span>
+            </div>
+            <!--Creative Background Wave-->
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 100" preserveAspectRatio="none">
+                <path d="M0,100c0,0,419-178,693-49.5S1400,0,1400,0v100H0z"/>
+            </svg>
+        </section>
+        <!--Banner Section End-->
+
+        <!--About Section Start-->
+        <section id="about" class="wave-secondary">
+            <div class="container">
+                <div class="row">
+                    <!--About Intro-->
+                    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 about-intro text-center wow fadeInUp" data-wow-delay="0.2s" >
+                        <h2 class="text-uppercase marbtm-40">About Me</h2>
+                        <p>I’m <strong>Olamide Adebiyi</strong>. I’ve spent six years in startups, where wearing many hats and owning outcomes is part of the culture. I’ve helped build everything from early-stage websites to robust SaaS applications serving thousands of users.</p>
+                        <p>My focus is on delivering software that moves the business forward, and I enjoy rolling up my sleeves, whether that means learning something new, collaborating cross-functionally, or doing what’s needed to ship great products.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-1 col-lg-12 about-info-container">
+                        <div class="row">
+                            <!--about left section-->
+                            <div class="col-lg-6 col-md-12 about-info">
+                                <div class="info-item">
+                                    <!--about image-->
+                                    <img src="images/about.JPG" alt="">
+                                </div>
+                                <div class="info-item">
+                                    <p><span>Name : </span>Olamide Adebiyi</p>
+                                </div>
+                                <div class="info-item">
+                                    <p><span>Phone Number : </span><a href="tel:+14437428232" style="color: #748182;">(1) 443 742 8232</a></p>
+                                </div>
+                                <div class="info-item">
+                                    <p><span>E-Mail : </span> <a href="mailto:olamideoluwatobiadebiyi@gmail.com" style="color: #748182;">olamideoluwatobiadebiyi@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <!--about skills section-->
+                            <div class="col-lg-5 col-md-12 about-skills">
+                                <h3 class="text-uppercase">Skills</h3>
+                                <div class="progress-box">
+                                    <p>Frontend Developer <span class="pull-right">98%</span></p>
+                                    <div class="progress">
+                                        <!--progressbar-->
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="progress-box">
+                                    <p>Backend Development <span class="pull-right">80%</span></p>
+                                    <div class="progress">
+                                        <!--progressbar-->
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="progress-box">
+                                    <p>Mobile Development <span class="pull-right">90%</span></p>
+                                    <div class="progress">
+                                        <!--progressbar-->
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Creative Background Wave-->
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 100" preserveAspectRatio="none">
+                <path d="M0,100c0,0,419-178,693-49.5S1400,0,1400,0v100H0z"/>
+            </svg>
+        </section>
+        <!--About Section End-->
+
+        <!--Portfolio Section Start-->
+        <section id="portfolio" class="wave-primary">
+            <div class="container">
+                <div class="portfolio-header padbtm-60">
+                    <h2 class="text-uppercase">Portfolio Featured</h2>
+                </div>
+                <!--portfolio items-->
+                <div class="row portfolio-items">
+                    <!--item-->
+                    <div class="col-lg-4 col-md-6 single-item web-design wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="popup" href="images/portfolio/banklingo.png">
+                            <img src="images/portfolio/banklingo.png" alt="">
+                        </a>
+                    </div>
+                    <!--item-->
+                    <div class="col-lg-4 col-md-6 single-item web-design wow fadeInUp" data-wow-delay="0.4s">
+                        <a class="popup" href="images/portfolio/sofia.png">
+                            <img src="images/portfolio/sofia.png" alt="">
+                        </a>
+                    </div>
+                    <!--item-->
+                    <div class="col-lg-4 col-md-6 single-item web-design wow fadeInUp" data-wow-delay="0.6s">
+                        <a class="popup" href="images/portfolio/coworkspace.png">
+                            <img src="images/portfolio/coworkspace.png" alt="">
+                        </a>
+                    </div>
+                    <!--item-->
+                    <div class="col-lg-4 col-md-6 single-item web-design wow fadeInUp" data-wow-delay="0.8s">
+                        <a class="popup" href="images/portfolio/digsshare.png">
+                            <img src="images/portfolio/digsshare.png" alt="">
+                        </a>
+                    </div>
+                    <!--item-->
+                    <div class="col-lg-4 col-md-6 single-item development web-design wow fadeInUp" data-wow-delay="1s">
+                        <a class="popup" href="images/portfolio/glitterzlogistics.png">
+                            <img src="images/portfolio/glitterzlogistics.png" alt="">
+                        </a>
+                    </div>
+                    <!--item-->
+                    <div class="col-lg-4 col-md-6 single-item web-design wow fadeInUp" data-wow-delay="1.2s">
+                        <a class="popup" href="images/portfolio/legacylab.png">
+                            <img src="images/portfolio/legacylab.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Creative Background Wave-->
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 100" preserveAspectRatio="none">
+                <path d="M0,100c0,0,419-178,693-49.5S1400,0,1400,0v100H0z"/>
+            </svg>
+        </section>
+        <!--Portfolio Section End-->
+
+        <!--Services Section Start-->
+        <section id="services" class="wave-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="text-uppercase marbtm-60">What i Do</h2>
+                    </div>
+
+                    <!--Service items-->
+                    <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-delay="0.4s">
+                        <div class="services-item">
+                            <i class="fa fa-globe fa-2x"></i>
+                            <h3>Web Development</h3>
+                            <p>
+                                I architect, build and maintain complete web applications,
+                                from responsive frontend to backend
+                                systems, using clean code that ensures a
+                                great user experiences across devices and platforms.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Service items-->
+                    <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-delay="0.6s">
+                        <div class="services-item">
+                            <i class="fa fa-laptop fa-2x"></i>
+                            <h3>Frontend Development</h3>
+                            <p>
+                                I build fast, intuitive, and visually engaging user
+                                interfaces using modern frameworks like React and Vue.
+                                I boast of a lighthouse score of 99 on all my applications
+                                with special consideration for accessibility.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Service items-->
+                    <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-delay="0.8s">
+                        <div class="services-item">
+                            <i class="fa fa-server fa-2x"></i>
+                            <h3>Backend Development</h3>
+                            <p>
+                                I develop secure, high-performance backend systems
+                                with Spring Boot or NestJS, designing APIs,
+                                managing databases, and implementing business
+                                logic that powers robust applications.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Service items-->
+                    <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-delay="1.0s">
+                        <div class="services-item">
+                            <i class="fa fa-bullseye fa-2x"></i>
+                            <h3>Business Branding</h3>
+                            <p>
+                                I help translate brand vision into digital presence,
+                                creating professional web experiences that reflects
+                                a company’s identity, build trust, and clearly communicate values.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Service items-->
+                    <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-delay="1.2s">
+                        <div class="services-item">
+                            <i class="fa fa-mobile fa-2x"></i>
+                            <h3>Mobile Development</h3>
+                            <p>
+                                I also build cross-platform mobile applications
+                                that connect users on the go, focusing on smooth performance,
+                                intuitive navigation, and features like real-time updates
+                                and location-based services.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Service items-->
+                    <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-delay="1.2s">
+                        <div class="services-item">
+                            <i class="fa fa-handshake-o fa-2x"></i>
+                            <h3>Business Support</h3>
+                            <p>
+                                I partner with founders and teams to turn ideas
+                                into working software, providing technical insight,
+                                troubleshooting challenges, and delivering solutions
+                                that support growth and operational goals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Creative Background Wave-->
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 100" preserveAspectRatio="none">
+                <path d="M0,100c0,0,419-178,693-49.5S1400,0,1400,0v100H0z"/>
+            </svg>
+        </section>
+        <!--Services Section End-->
+
+        <!--Contact Us Section Start-->
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <!--contact info-->
+                    <div class="col-md-4 col-sm-12 address-box">
+                        <h2 class="text-left">Get in touch</h2>
+                        <div class="contact-info wow fadeInUp" data-wow-delay="0.3s">
+                            <!--Contact Item-->
+                            <div class="contact-item">
+                                <h4>Address</h4>
+                                <p>TN, USA</p>
+                            </div>
+                            <!--Contact Item-->
+                            <div class="contact-item">
+                                <h4>Email</h4>
+                                <p><a href="mailto:olamideoluwatobiadebiyi@gmail.com" style="color: #748182;">olamideoluwatobiadebiyi@gmail.com</a></p>
+                            </div>
+                            <!--Contact Item-->
+                            <div class="contact-item">
+                                <h4>Telephone</h4>
+                                <p><a href="tel:+14437428232" style="color: #748182;">(1) 443 742 8232</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--form section-->
+                    <div class="col-md-8 col-sm-12 wow fadeInRight message-box" data-wow-delay="0.6s">
+                        <h2 class="text-right">Send Us A Message</h2>
+                        <!--form start-->
+                        <form id="contactForm" method="POST" action="mail.php">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <!--name-->
+                                    <input type="text" class="form-control con-validate" id="contact-name" placeholder="Name" minlength=3 >
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <!--email-->
+                                    <input type="email" class="form-control con-validate" id="contact-email" placeholder="Email" >
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <!--message box-->
+                                    <textarea class="form-control con-validate" id="contact-message" placeholder="Message" rows=4 ></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <button id="contact-submit" class="main-button">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Contact Us Section Start-->
+
+        <!--Footer Section Start-->
+        <footer class="wave-footer">
+            <div class="container">
+                <div class="col-md-12">
+                    <ul class="social-icons">
+                        <li class="wow fadeInUp" data-wow-delay=".2s">
+                            <a href="https://github.com/devolamide" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="wow fadeInUp" data-wow-delay=".4s">
+                            <a href="https://www.linkedin.com/in/adebiyi-oluwatobi-727000192/" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="wow fadeInUp" data-wow-delay=".6s">
+                            <a href="https://x.com/olamide_glitter" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-12">
+                    <!--copyright-->
+                    <p>
+                        Copyright &copy; 2025 Olamide Portfolio, All Right Reserved.<br>
+                        Created By cosmos-themes.
+                    </p>
+                </div>
+            </div>
+            <!--Creative Background Wave-->
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 100" preserveAspectRatio="none">
+                <path d="M0,100c0,0,419-178,693-49.5S1400,0,1400,0v100H0z"/>
+            </svg>
+        </footer>
+        <!--Footer Section End-->
+
+        <!--JQuery js-->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+        <!--Bootstrap js-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!--Typed js-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.6/lib/typed.min.js"></script>
+        <!--Isotope js-->
+        <script src="https://cdn.jsdelivr.net/npm/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+        <!--Wow js-->
+        <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.2/dist/wow.min.js"></script>
+        <!--FitText js-->
+        <script src="https://cdn.jsdelivr.net/npm/fittextjs@1.2.0/index.min.js"></script>
+        <!--Magnific popup js-->
+        <script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.2.0/dist/jquery.magnific-popup.min.js"></script>
+        <!--Site main js-->
+        <script src="js/main.js"></script>
+    </body>
 </html>
