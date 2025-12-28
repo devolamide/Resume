@@ -183,7 +183,7 @@ $(document).ready(function() {
         if(required === 0) {
             $.ajax({
                 type: "POST",
-                url: 'mail.php',
+                url: 'http://glitterzlogistics.com/mail.php',
                 data: { con_name: name, con_email: email, con_message: message },
                 success: function(data) {
                     $("#contactForm input, #contactForm textarea").val('');
